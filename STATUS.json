@@ -1,0 +1,22 @@
+{
+  "created_utc": "2026-09-12T03:11:12.579663+00:00",
+  "original_target": {
+    "length": 18,
+    "weight": 6,
+    "minimum_distance": 6,
+    "minimum_word_count": 134
+  },
+  "target_status": "NOT_MET",
+  "best_verified_word_count": 133,
+  "verified_134_word_file": null,
+  "finite_family_certificate": {
+    "pairwise_inequivalent_codes": 292,
+    "word_count_per_code": 133,
+    "published_baseline_representatives": 1,
+    "representatives_proved_inequivalent_to_that_baseline": 291,
+    "global_literature_novelty_established": false
+  },
+  "unrestricted_impossibility_proved": false,
+  "external_specialist_review": false,
+  "all_search_processes_running": false
+}

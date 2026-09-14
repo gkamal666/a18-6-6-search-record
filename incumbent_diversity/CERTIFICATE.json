@@ -1,0 +1,4399 @@
+{
+  "generated_utc": "2026-09-12T03:07:28.520714+00:00",
+  "number_of_pairwise_inequivalent_codes": 292,
+  "number_inequivalent_to_supplied_published_baseline": 291,
+  "parameters": {
+    "length": 18,
+    "words": 133,
+    "weight": 6,
+    "minimum_distance": 6
+  },
+  "improves_size_lower_bound": false,
+  "meets_original_134_target": false,
+  "global_literature_novelty_established": false,
+  "external_validation": false,
+  "proof": "Every Hamming-distance-preserving bijection between codes preserves the multiset of all unordered pair distances. Each supplied code is exactly valid and has a distinct such multiset; therefore no two supplied codes are isometric.",
+  "attribution": "C001 is the supplied published Christopher D. Rosin code, normalized only by sorting rows. Remaining representatives arose in this AI-assisted continuation from the attributed benchmark. Difference from C001 is proved; global novelty is not claimed.",
+  "entries": [
+    {
+      "file": "C001.txt",
+      "origin_in_research_package": "data/three_track_research/public_a18_6_6_133.txt",
+      "published_baseline": true,
+      "sha256": "e5800e277dc6b20fb278858039a0afbeb24b451a97af0ea11dc80e2c6dbe2b02",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3435,
+        "8": 2149,
+        "10": 2887,
+        "12": 307
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C002.txt",
+      "origin_in_research_package": "results/guided8827_seed133_0.txt",
+      "published_baseline": false,
+      "sha256": "aa6f0ef75bea3d24157f61078de42eb52755c38080b6c3478145d97b1464aecb",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3442,
+        "8": 2141,
+        "10": 2887,
+        "12": 308
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C003.txt",
+      "origin_in_research_package": "results/lns6041_pool_1.txt",
+      "published_baseline": false,
+      "sha256": "522feb896a8079f86ffb73ba884c3fbaacf4bca5b3ca09403047f4bcd3bb5124",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3427,
+        "8": 2164,
+        "10": 2873,
+        "12": 314
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C004.txt",
+      "origin_in_research_package": "results/lns70131_pool_1.txt",
+      "published_baseline": false,
+      "sha256": "af0744185152adc8dc1986a12a7ed7468d271bc00b1ec0c1d412793505f601ba",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3428,
+        "8": 2162,
+        "10": 2881,
+        "12": 307
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C005.txt",
+      "origin_in_research_package": "results/lns70131_pool_13.txt",
+      "published_baseline": false,
+      "sha256": "96374dddadb78e7e802d765802cd42a303d5a38d0acbf15abd4fe5745672c9cc",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3403,
+        "8": 2199,
+        "10": 2858,
+        "12": 318
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C006.txt",
+      "origin_in_research_package": "results/lns70131_pool_14.txt",
+      "published_baseline": false,
+      "sha256": "e63a618c165aba3375e018469afb38783a8a62ce8c59dd355894376ffda37d88",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3402,
+        "8": 2200,
+        "10": 2858,
+        "12": 318
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C007.txt",
+      "origin_in_research_package": "results/lns70131_pool_15.txt",
+      "published_baseline": false,
+      "sha256": "fe0b5c82412da39262eb8ddee385854dbd9455a168750bb6c7c3bc75064fb188",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3408,
+        "8": 2189,
+        "10": 2872,
+        "12": 309
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C008.txt",
+      "origin_in_research_package": "results/lns70131_pool_2.txt",
+      "published_baseline": false,
+      "sha256": "bbe11979a432ad723738d195aa5d31388952f18f7ff1591c57c6eb30e9925cb9",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3411,
+        "8": 2174,
+        "10": 2876,
+        "12": 317
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C009.txt",
+      "origin_in_research_package": "results/lns70131_pool_207.txt",
+      "published_baseline": false,
+      "sha256": "f826d0d0b58ebe892eb1ce4219d8a448587046b37226d38e75000c6607fd456b",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3421,
+        "8": 2165,
+        "10": 2884,
+        "12": 308
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C010.txt",
+      "origin_in_research_package": "results/lns70131_pool_208.txt",
+      "published_baseline": false,
+      "sha256": "e1369d02f5f2cc597819f2941a7b987c421007482d91a0dffb80646cd2a970c4",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3402,
+        "8": 2193,
+        "10": 2867,
+        "12": 316
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C011.txt",
+      "origin_in_research_package": "results/lns70131_pool_209.txt",
+      "published_baseline": false,
+      "sha256": "ebb0782239069cdcee7d160bf80b354aff4772a9e036abeb8a7e22f515d240d6",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3413,
+        "8": 2184,
+        "10": 2865,
+        "12": 316
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C012.txt",
+      "origin_in_research_package": "results/lns70131_pool_210.txt",
+      "published_baseline": false,
+      "sha256": "c5315c1041d96008a8355c365e8eebaa414b560b1082d5a6fe7cee6083d5adb7",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3433,
+        "8": 2154,
+        "10": 2883,
+        "12": 308
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C013.txt",
+      "origin_in_research_package": "results/lns70131_pool_275.txt",
+      "published_baseline": false,
+      "sha256": "4157d0c9bbb0968e0a68220e3e41516dcb2a09240ca7e4e931ea19a2bfe9c11b",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3399,
+        "8": 2193,
+        "10": 2868,
+        "12": 318
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C014.txt",
+      "origin_in_research_package": "results/lns70131_pool_276.txt",
+      "published_baseline": false,
+      "sha256": "5ec87321c7b12a2954ddb0228a677d33cf80d272744a80dda22abb272f8e486b",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3402,
+        "8": 2192,
+        "10": 2866,
+        "12": 318
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C015.txt",
+      "origin_in_research_package": "results/lns70131_pool_277.txt",
+      "published_baseline": false,
+      "sha256": "e1d67f34c8a9ef55c89c64cbc4581dc79dee04f8f9b591610d565502b1c087e2",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3422,
+        "8": 2158,
+        "10": 2882,
+        "12": 316
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C016.txt",
+      "origin_in_research_package": "results/lns70131_pool_278.txt",
+      "published_baseline": false,
+      "sha256": "911f41cdb2a652be2efbc07974ec91e4ec23b6ba19a12026549ff650d24a05b2",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3408,
+        "8": 2180,
+        "10": 2875,
+        "12": 315
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C017.txt",
+      "origin_in_research_package": "results/lns70131_pool_279.txt",
+      "published_baseline": false,
+      "sha256": "1e5af51686161e3f85ffbe961bec7ec3e677fc2f2c1c3ab08ae75d2468bffec6",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3407,
+        "8": 2181,
+        "10": 2874,
+        "12": 316
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C018.txt",
+      "origin_in_research_package": "results/lns70131_pool_280.txt",
+      "published_baseline": false,
+      "sha256": "535273158471cf559264573573ef8cbb48ed447b7fcd1d6bc71abedb46f46573",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3428,
+        "8": 2162,
+        "10": 2873,
+        "12": 315
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C019.txt",
+      "origin_in_research_package": "results/lns70131_pool_281.txt",
+      "published_baseline": false,
+      "sha256": "8d0b3123a19cdb895a577567add77c59833dbec66d06bfd1ae626c2d3aee8400",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3415,
+        "8": 2176,
+        "10": 2871,
+        "12": 316
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C020.txt",
+      "origin_in_research_package": "results/lns70131_pool_283.txt",
+      "published_baseline": false,
+      "sha256": "b4282062af948aeb20546e0904f58e90fd23417e9e36f6ab8a27f10035db3476",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3409,
+        "8": 2185,
+        "10": 2869,
+        "12": 315
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C021.txt",
+      "origin_in_research_package": "results/lns70131_pool_284.txt",
+      "published_baseline": false,
+      "sha256": "570189f51b75bd08ba0d1dd1db1359bf3f527aa07190e15e19e6a3ea9a61168b",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3425,
+        "8": 2162,
+        "10": 2883,
+        "12": 308
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C022.txt",
+      "origin_in_research_package": "results/lns70131_pool_285.txt",
+      "published_baseline": false,
+      "sha256": "f3ef1dc2c8df8912f5a5520551dd2489c49db6524bc65ca25e577ad97c724572",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3412,
+        "8": 2175,
+        "10": 2882,
+        "12": 309
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C023.txt",
+      "origin_in_research_package": "results/lns70131_pool_286.txt",
+      "published_baseline": false,
+      "sha256": "80a7015249efeb5bc055c82837867201a44b52676dd03a1022a13df1dad90e11",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3408,
+        "8": 2181,
+        "10": 2880,
+        "12": 309
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C024.txt",
+      "origin_in_research_package": "results/lns70131_pool_29.txt",
+      "published_baseline": false,
+      "sha256": "6da15476b86837c920692fe5007cc8e5cfffc3a44ed83a31bde37f4317920feb",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3393,
+        "8": 2212,
+        "10": 2854,
+        "12": 319
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C025.txt",
+      "origin_in_research_package": "results/lns70131_pool_3.txt",
+      "published_baseline": false,
+      "sha256": "ea9b2855bc3978d89e5db3a4f9f325f1b52821caa17dfbfb2738aa407725832e",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3423,
+        "8": 2157,
+        "10": 2882,
+        "12": 316
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C026.txt",
+      "origin_in_research_package": "results/lns70131_pool_30.txt",
+      "published_baseline": false,
+      "sha256": "b407c6642a34b5162ba5f9be5786d755778157c96c1ee97c9f81ac3ee091d037",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3399,
+        "8": 2209,
+        "10": 2861,
+        "12": 309
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C027.txt",
+      "origin_in_research_package": "results/lns70131_pool_32.txt",
+      "published_baseline": false,
+      "sha256": "379db32a397b88c09bf6df144bc5176ae75b7d8e7495298795bdccae9254adb4",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3399,
+        "8": 2204,
+        "10": 2859,
+        "12": 316
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C028.txt",
+      "origin_in_research_package": "results/lns70131_pool_33.txt",
+      "published_baseline": false,
+      "sha256": "59dc1651ead6a74bc3de2ca02f54bfffcbad609993b4309df1aab42cdd542524",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3410,
+        "8": 2181,
+        "10": 2871,
+        "12": 316
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C029.txt",
+      "origin_in_research_package": "results/lns70131_pool_34.txt",
+      "published_baseline": false,
+      "sha256": "df5d6b8089f6f7c7834dba065d31d36d5ac98bee03209871a50a1d931b246aa4",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3410,
+        "8": 2188,
+        "10": 2872,
+        "12": 308
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C030.txt",
+      "origin_in_research_package": "results/lns70131_pool_342.txt",
+      "published_baseline": false,
+      "sha256": "f1c0c68de5801de45268cce4bff5bae7b82c3520fb9b8c85b34d4381a9fe1249",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3428,
+        "8": 2152,
+        "10": 2888,
+        "12": 310
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C031.txt",
+      "origin_in_research_package": "results/lns70131_pool_343.txt",
+      "published_baseline": false,
+      "sha256": "caeed04f9902095d1c902450a97a79449488ae07f41916af29d256829405505c",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3404,
+        "8": 2192,
+        "10": 2878,
+        "12": 304
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C032.txt",
+      "origin_in_research_package": "results/lns70131_pool_344.txt",
+      "published_baseline": false,
+      "sha256": "e1fe998525c25cb7f1163d03d50bab608396edcea7ffa46458f92d0af0e1cf36",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3416,
+        "8": 2169,
+        "10": 2891,
+        "12": 302
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C033.txt",
+      "origin_in_research_package": "results/lns70131_pool_346.txt",
+      "published_baseline": false,
+      "sha256": "c50e84bf2ea4b39e0772b8b5553661139bcb90f4a646d4e0ebb5cd90ddd4c2fd",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3417,
+        "8": 2171,
+        "10": 2881,
+        "12": 309
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C034.txt",
+      "origin_in_research_package": "results/lns70131_pool_347.txt",
+      "published_baseline": false,
+      "sha256": "e6c169eed5aab2724f063d63ca2638a3e3062a33b1ed7fc0b568e644613dcbbd",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3404,
+        "8": 2191,
+        "10": 2873,
+        "12": 310
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C035.txt",
+      "origin_in_research_package": "results/lns70131_pool_348.txt",
+      "published_baseline": false,
+      "sha256": "799952dcd26939f79b7de07303e24e94136ba416471eac54019a218d788ee27e",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3429,
+        "8": 2159,
+        "10": 2881,
+        "12": 309
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C036.txt",
+      "origin_in_research_package": "results/lns70131_pool_349.txt",
+      "published_baseline": false,
+      "sha256": "46f65cb8829a3ea13575193c702e079862a6dc49942fcdcd299880084b60e535",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3407,
+        "8": 2189,
+        "10": 2879,
+        "12": 303
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C037.txt",
+      "origin_in_research_package": "results/lns70131_pool_35.txt",
+      "published_baseline": false,
+      "sha256": "b610948c417042724407f4cef29e40726bf4c5fddf5a1fb914da1d0f6c487b3f",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3422,
+        "8": 2183,
+        "10": 2865,
+        "12": 308
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C038.txt",
+      "origin_in_research_package": "results/lns70131_pool_350.txt",
+      "published_baseline": false,
+      "sha256": "fd939d85ea50e51bac18efa643700aac3cbaa21bd7c40d3e13086b3375b2a2e7",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3424,
+        "8": 2159,
+        "10": 2893,
+        "12": 302
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C039.txt",
+      "origin_in_research_package": "results/lns70131_pool_351.txt",
+      "published_baseline": false,
+      "sha256": "8d864475b3591a6ec2b009c90b1708f41756fe6f6ab01c0884a0f85ba04605f8",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3417,
+        "8": 2171,
+        "10": 2893,
+        "12": 297
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C040.txt",
+      "origin_in_research_package": "results/lns70131_pool_352.txt",
+      "published_baseline": false,
+      "sha256": "94fefdda8bd171452d489430977227e3163a1fa46f387651f2237a0c54017b25",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3405,
+        "8": 2181,
+        "10": 2895,
+        "12": 297
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C041.txt",
+      "origin_in_research_package": "results/lns70131_pool_399.txt",
+      "published_baseline": false,
+      "sha256": "5f3265abd135bf32d9ef59d0cf77ab4d0d94bb184de0c112db9ccc692e7ae5ac",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3386,
+        "8": 2206,
+        "10": 2879,
+        "12": 307
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C042.txt",
+      "origin_in_research_package": "results/lns70131_pool_4.txt",
+      "published_baseline": false,
+      "sha256": "4fa6038e1e915c692063b7a381e16b468bd599fad241155e002d1c34f43bbfd3",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3422,
+        "8": 2163,
+        "10": 2876,
+        "12": 317
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C043.txt",
+      "origin_in_research_package": "results/lns70131_pool_402.txt",
+      "published_baseline": false,
+      "sha256": "12791931f817d9b519f0367556c87dd3af85da79366bf81bc33f04005e0d9f61",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3397,
+        "8": 2197,
+        "10": 2877,
+        "12": 307
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C044.txt",
+      "origin_in_research_package": "results/lns70131_pool_403.txt",
+      "published_baseline": false,
+      "sha256": "9b85f9e6df0f29a8de45c9c1c23f543e7ea05c88623d2bbb9c4dc97b3f386c78",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3417,
+        "8": 2169,
+        "10": 2887,
+        "12": 305
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C045.txt",
+      "origin_in_research_package": "results/lns70131_pool_405.txt",
+      "published_baseline": false,
+      "sha256": "3e30fa8f604fe654351c684a5cfadcd0a76bfa0bc000af93d9e637ca96d4c17d",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3397,
+        "8": 2189,
+        "10": 2887,
+        "12": 305
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C046.txt",
+      "origin_in_research_package": "results/lns70131_pool_406.txt",
+      "published_baseline": false,
+      "sha256": "887ccb7cfbcd22741bec9b1830a2ba2fe741f267441ab0100fb61a21cfc58eee",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3393,
+        "8": 2194,
+        "10": 2886,
+        "12": 305
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C047.txt",
+      "origin_in_research_package": "results/lns70131_pool_407.txt",
+      "published_baseline": false,
+      "sha256": "d854d2de72bae5d4b1bb50ddb7598b63a7485b33dca88b0eaa518497915c334b",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3391,
+        "8": 2197,
+        "10": 2885,
+        "12": 305
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C048.txt",
+      "origin_in_research_package": "results/lns70131_pool_408.txt",
+      "published_baseline": false,
+      "sha256": "69316be9994af10aa9cd91dae3d0ea2c6df83620b627e066273b5f0cf7573034",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3390,
+        "8": 2201,
+        "10": 2880,
+        "12": 307
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C049.txt",
+      "origin_in_research_package": "results/lns70131_pool_411.txt",
+      "published_baseline": false,
+      "sha256": "2def1cd54def8aaf022aa3918fa3f006256bd471f5a947e55cc692ef33ee362f",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3402,
+        "8": 2191,
+        "10": 2878,
+        "12": 307
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C050.txt",
+      "origin_in_research_package": "results/lns70131_pool_6.txt",
+      "published_baseline": false,
+      "sha256": "d0da38d7a81d712b33e3c5ae9222e44d4663f8d09e920d0969050ff6912a5454",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3407,
+        "8": 2176,
+        "10": 2884,
+        "12": 311
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C051.txt",
+      "origin_in_research_package": "results/lns90341_pool_1.txt",
+      "published_baseline": false,
+      "sha256": "55f81b4fed4c85b5ab20e8e31df43c9fa544e676a4edbea4e91cc33936402051",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3422,
+        "8": 2162,
+        "10": 2887,
+        "12": 307
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C052.txt",
+      "origin_in_research_package": "results/lns90341_pool_10.txt",
+      "published_baseline": false,
+      "sha256": "094ac011cc5f8fcf919778f99ea899943ee432dd6a522a0e7399e2b18a9c170b",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3410,
+        "8": 2179,
+        "10": 2881,
+        "12": 308
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C053.txt",
+      "origin_in_research_package": "results/lns90341_pool_100.txt",
+      "published_baseline": false,
+      "sha256": "da313134e55bad14cc6d26cd32b28c618a3d716aacdfe599ae0a3d4592b3fb2e",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3389,
+        "8": 2198,
+        "10": 2882,
+        "12": 309
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C054.txt",
+      "origin_in_research_package": "results/lns90341_pool_101.txt",
+      "published_baseline": false,
+      "sha256": "71730ac388d40017bf5f198a1508a5494798da057765aa693b54a0e5a8250453",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3388,
+        "8": 2202,
+        "10": 2877,
+        "12": 311
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C055.txt",
+      "origin_in_research_package": "results/lns90341_pool_102.txt",
+      "published_baseline": false,
+      "sha256": "9d97e1770b68505115b025121eebd5ea2a991855538cc0cc14d7b428770d9d20",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3383,
+        "8": 2212,
+        "10": 2874,
+        "12": 309
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C056.txt",
+      "origin_in_research_package": "results/lns90341_pool_103.txt",
+      "published_baseline": false,
+      "sha256": "360e7fb9adeeb8839be37735dc2b4782de5725f8b1767b2ca9f6871657543f0f",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3400,
+        "8": 2190,
+        "10": 2881,
+        "12": 307
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C057.txt",
+      "origin_in_research_package": "results/lns90341_pool_105.txt",
+      "published_baseline": false,
+      "sha256": "a8530815bb731f6ea9e3a6841ff5d1bcaf53231f58c7f687acc843d1745dbc28",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3418,
+        "8": 2164,
+        "10": 2895,
+        "12": 301
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C058.txt",
+      "origin_in_research_package": "results/lns90341_pool_106.txt",
+      "published_baseline": false,
+      "sha256": "2f3de647ff358651c9664feeab8c7a8e953dadc1ceddad0b79eb81b2f8caef36",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3408,
+        "8": 2179,
+        "10": 2876,
+        "12": 315
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C059.txt",
+      "origin_in_research_package": "results/lns90341_pool_107.txt",
+      "published_baseline": false,
+      "sha256": "6a45299494a71a354cbf6fe91d82cec3f9e02d8392b15a7cd88cbfe2f3191b02",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3406,
+        "8": 2183,
+        "10": 2874,
+        "12": 315
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C060.txt",
+      "origin_in_research_package": "results/lns90341_pool_108.txt",
+      "published_baseline": false,
+      "sha256": "e467c6d34923ccf8b6f956c9fdad2910a6a77a2e810cb2168a3e505976b4f2c5",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3415,
+        "8": 2174,
+        "10": 2882,
+        "12": 307
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C061.txt",
+      "origin_in_research_package": "results/lns90341_pool_109.txt",
+      "published_baseline": false,
+      "sha256": "1e6d0200a6769e673d3c1fa2b1f217ef16ac3e86cea488e97a891e5a3230fe07",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3390,
+        "8": 2196,
+        "10": 2883,
+        "12": 309
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C062.txt",
+      "origin_in_research_package": "results/lns90341_pool_11.txt",
+      "published_baseline": false,
+      "sha256": "2b11e58218ca40bf14e0c87ec658674bb1947077ad6e64715068ebbaac7f9901",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3404,
+        "8": 2183,
+        "10": 2875,
+        "12": 316
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C063.txt",
+      "origin_in_research_package": "results/lns90341_pool_110.txt",
+      "published_baseline": false,
+      "sha256": "e625547df157fb2f1c53bf0083abb8abd6bd882e67dbd6e4c910631019ebbf13",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3417,
+        "8": 2163,
+        "10": 2888,
+        "12": 310
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C064.txt",
+      "origin_in_research_package": "results/lns90341_pool_112.txt",
+      "published_baseline": false,
+      "sha256": "cc36795b299f15ba4890234b0b03593902a489b9fd14eab775357b5c39bc68f8",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3425,
+        "8": 2161,
+        "10": 2889,
+        "12": 303
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C065.txt",
+      "origin_in_research_package": "results/lns90341_pool_113.txt",
+      "published_baseline": false,
+      "sha256": "3781076ed9ff359f48190c30b008f5242c8064bbe7dbb2cb8c81102f1aadf201",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3409,
+        "8": 2179,
+        "10": 2890,
+        "12": 300
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C066.txt",
+      "origin_in_research_package": "results/lns90341_pool_114.txt",
+      "published_baseline": false,
+      "sha256": "04185c526bbe2dd6add828c9332dc36784853a4157c579c69a7292fa2091fd89",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3409,
+        "8": 2173,
+        "10": 2886,
+        "12": 310
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C067.txt",
+      "origin_in_research_package": "results/lns90341_pool_116.txt",
+      "published_baseline": false,
+      "sha256": "df9bead146b64436c4e406d7e9ba6650cbbf412e50a7ba5c9e578938e999a9c6",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3416,
+        "8": 2168,
+        "10": 2885,
+        "12": 309
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C068.txt",
+      "origin_in_research_package": "results/lns90341_pool_117.txt",
+      "published_baseline": false,
+      "sha256": "098be33b3b914068648bd8ce309318049ee330cf40b9bcd82a23f1af8ce54396",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3404,
+        "8": 2184,
+        "10": 2880,
+        "12": 310
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C069.txt",
+      "origin_in_research_package": "results/lns90341_pool_118.txt",
+      "published_baseline": false,
+      "sha256": "dff584dcbb72c81a36696333e8a92ffc9230ec20a233ea9b961d399bd79ba5cd",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3393,
+        "8": 2199,
+        "10": 2882,
+        "12": 304
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C070.txt",
+      "origin_in_research_package": "results/lns90341_pool_119.txt",
+      "published_baseline": false,
+      "sha256": "45c6698547ca7cff0476c95777fc7bf55d19a3eb0bedc28e68dd64584174847e",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3414,
+        "8": 2175,
+        "10": 2886,
+        "12": 303
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C071.txt",
+      "origin_in_research_package": "results/lns90341_pool_12.txt",
+      "published_baseline": false,
+      "sha256": "e75442a2d814239298dbe0aaaa3396f5cdf9bd0c6f6d9f4250ef04dcf9c4b456",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3427,
+        "8": 2155,
+        "10": 2881,
+        "12": 315
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C072.txt",
+      "origin_in_research_package": "results/lns90341_pool_120.txt",
+      "published_baseline": false,
+      "sha256": "0208a66382165781890ecc95046717f130f9f3bd712f1de103f2c98e14681368",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3417,
+        "8": 2165,
+        "10": 2896,
+        "12": 300
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C073.txt",
+      "origin_in_research_package": "results/lns90341_pool_121.txt",
+      "published_baseline": false,
+      "sha256": "54954844074ff3510a9c18ec65ddc992c5c92040e12018edffc8736e1ccf4b55",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3398,
+        "8": 2196,
+        "10": 2873,
+        "12": 311
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C074.txt",
+      "origin_in_research_package": "results/lns90341_pool_122.txt",
+      "published_baseline": false,
+      "sha256": "d6149f6d6626cc4e6c3feb8a310b5c6e48ed4b1d632d28b3107214087a3a91bc",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3404,
+        "8": 2188,
+        "10": 2875,
+        "12": 311
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C075.txt",
+      "origin_in_research_package": "results/lns90341_pool_123.txt",
+      "published_baseline": false,
+      "sha256": "384e7911b8e3a0c7a5b0488f41a071209d68d23cee4c5be6a83c48e6d1e2aeec",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3426,
+        "8": 2168,
+        "10": 2881,
+        "12": 303
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C076.txt",
+      "origin_in_research_package": "results/lns90341_pool_13.txt",
+      "published_baseline": false,
+      "sha256": "5dc00dfe1e450024f77c3add6956e0441f7ff713d00c010bb2a89f9e140690c4",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3401,
+        "8": 2195,
+        "10": 2865,
+        "12": 317
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C077.txt",
+      "origin_in_research_package": "results/lns90341_pool_130.txt",
+      "published_baseline": false,
+      "sha256": "be2b03d5ab0e9bc8d6560ef7320126e5756e0e9ddae0bf8280f3343694574cb0",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3415,
+        "8": 2166,
+        "10": 2887,
+        "12": 310
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C078.txt",
+      "origin_in_research_package": "results/lns90341_pool_132.txt",
+      "published_baseline": false,
+      "sha256": "a97ece4842abce50f17f0d5298767469209cc5e3ac033c364384f10f7cbbea88",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3400,
+        "8": 2184,
+        "10": 2889,
+        "12": 305
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C079.txt",
+      "origin_in_research_package": "results/lns90341_pool_133.txt",
+      "published_baseline": false,
+      "sha256": "4c418646a0d2a5941f6fec607142223dd06d04005763321f6e880b1c6da6849d",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3402,
+        "8": 2180,
+        "10": 2889,
+        "12": 307
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C080.txt",
+      "origin_in_research_package": "results/lns90341_pool_134.txt",
+      "published_baseline": false,
+      "sha256": "3d338feae13328c63627cf42a571b0fed3e493a96fb67f6ac963591345bd9462",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3402,
+        "8": 2187,
+        "10": 2889,
+        "12": 300
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C081.txt",
+      "origin_in_research_package": "results/lns90341_pool_135.txt",
+      "published_baseline": false,
+      "sha256": "8ca35a216735865b2940e13252d2302c09582aab4bf7dd1f3ef4f991613ba399",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3415,
+        "8": 2166,
+        "10": 2898,
+        "12": 299
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C082.txt",
+      "origin_in_research_package": "results/lns90341_pool_136.txt",
+      "published_baseline": false,
+      "sha256": "995f56c291c7c66f12bb017757d7a47f275355a4afe0f642c536b47706eace62",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3412,
+        "8": 2172,
+        "10": 2897,
+        "12": 297
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C083.txt",
+      "origin_in_research_package": "results/lns90341_pool_137.txt",
+      "published_baseline": false,
+      "sha256": "bad2e80255313d054d6b75c514a1c9995ae29625f8108bbe8587048e75711ec7",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3416,
+        "8": 2164,
+        "10": 2899,
+        "12": 299
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C084.txt",
+      "origin_in_research_package": "results/lns90341_pool_14.txt",
+      "published_baseline": false,
+      "sha256": "0aaeb6897ae5b3650ad12025d20002ae88e62e404be40aa818f44bd78113c2ef",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3379,
+        "8": 2229,
+        "10": 2853,
+        "12": 317
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C085.txt",
+      "origin_in_research_package": "results/lns90341_pool_140.txt",
+      "published_baseline": false,
+      "sha256": "64c888f4f574be1724ba36eea3176ed35f64e8925dde4352a9ee4d56a63d0fe2",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3431,
+        "8": 2149,
+        "10": 2899,
+        "12": 299
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C086.txt",
+      "origin_in_research_package": "results/lns90341_pool_141.txt",
+      "published_baseline": false,
+      "sha256": "de2e0534a3b18a10b4efc7ce046b8e6e82f95a4f3c2b9f2f5095a7fc903fdf3a",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3419,
+        "8": 2160,
+        "10": 2900,
+        "12": 299
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C087.txt",
+      "origin_in_research_package": "results/lns90341_pool_143.txt",
+      "published_baseline": false,
+      "sha256": "4b4038b07e8f294467f5f62bef7b774331b51936a2dee41719e0e865a5152d0b",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3414,
+        "8": 2170,
+        "10": 2893,
+        "12": 301
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C088.txt",
+      "origin_in_research_package": "results/lns90341_pool_145.txt",
+      "published_baseline": false,
+      "sha256": "f82cb86aa1e4cd790519e4de9cb635c0c140acd465769da5c109d0d2a5fb158d",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3423,
+        "8": 2160,
+        "10": 2888,
+        "12": 307
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C089.txt",
+      "origin_in_research_package": "results/lns90341_pool_147.txt",
+      "published_baseline": false,
+      "sha256": "01f4d4d8a4067a222da807f9952f4e575f152a7c2ba98857e363703309d42e2a",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3397,
+        "8": 2196,
+        "10": 2872,
+        "12": 313
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C090.txt",
+      "origin_in_research_package": "results/lns90341_pool_148.txt",
+      "published_baseline": false,
+      "sha256": "706839129573f1edbb352090a0740b6984517390bf11d3a8f40ebac5a55a0337",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3416,
+        "8": 2180,
+        "10": 2878,
+        "12": 304
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C091.txt",
+      "origin_in_research_package": "results/lns90341_pool_149.txt",
+      "published_baseline": false,
+      "sha256": "378a86ca9d3c4069c2fde1b58daf3f190d42ad264d89c4aa294e6d948e83c641",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3409,
+        "8": 2184,
+        "10": 2872,
+        "12": 313
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C092.txt",
+      "origin_in_research_package": "results/lns90341_pool_15.txt",
+      "published_baseline": false,
+      "sha256": "21a0b2dac280dde9c89ed11af4a805b69cf3c2ded583b8ad089ccb8394cee9ab",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3379,
+        "8": 2223,
+        "10": 2865,
+        "12": 311
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C093.txt",
+      "origin_in_research_package": "results/lns90341_pool_150.txt",
+      "published_baseline": false,
+      "sha256": "285df0f65c5087258a79f0e4e4ee08208b9d8f5f3850dc8ba9f08a20cd70d551",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3392,
+        "8": 2200,
+        "10": 2879,
+        "12": 307
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C094.txt",
+      "origin_in_research_package": "results/lns90341_pool_152.txt",
+      "published_baseline": false,
+      "sha256": "e29b0b75903ae2362bf09ea487a48dfc569425e3d063a80780617ef9b03f5671",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3396,
+        "8": 2190,
+        "10": 2887,
+        "12": 305
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C095.txt",
+      "origin_in_research_package": "results/lns90341_pool_154.txt",
+      "published_baseline": false,
+      "sha256": "5f70c206687890355733207ca9e474e8d5f57b08580274a5ab2d55e91a2fa2ee",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3399,
+        "8": 2188,
+        "10": 2882,
+        "12": 309
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C096.txt",
+      "origin_in_research_package": "results/lns90341_pool_155.txt",
+      "published_baseline": false,
+      "sha256": "27ad19f453029acc085a80f82b1a9f088d6b30601d5a4d65b29d26417af2b1cb",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3395,
+        "8": 2202,
+        "10": 2868,
+        "12": 313
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C097.txt",
+      "origin_in_research_package": "results/lns90341_pool_157.txt",
+      "published_baseline": false,
+      "sha256": "650334bc081972230b97bf2ad34b63e5335faec93d7b93b965a9109801f85b2c",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3416,
+        "8": 2165,
+        "10": 2882,
+        "12": 315
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C098.txt",
+      "origin_in_research_package": "results/lns90341_pool_160.txt",
+      "published_baseline": false,
+      "sha256": "908cf8d16ec08e4a4a63afa8f198847b6895d732d1b0cb7f4aad0a96e789b8fd",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3430,
+        "8": 2153,
+        "10": 2887,
+        "12": 308
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C099.txt",
+      "origin_in_research_package": "results/lns90341_pool_162.txt",
+      "published_baseline": false,
+      "sha256": "03bf0070079d5a628a5ce3792ec91984c7486c1840aab6eb7c5d2e0f1d6cb366",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3408,
+        "8": 2174,
+        "10": 2887,
+        "12": 309
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C100.txt",
+      "origin_in_research_package": "results/lns90341_pool_163.txt",
+      "published_baseline": false,
+      "sha256": "d4fb8db84a7e7bb58fc97a34636132919399fe94955c0a08075356e497c1c9d2",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3408,
+        "8": 2172,
+        "10": 2891,
+        "12": 307
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C101.txt",
+      "origin_in_research_package": "results/lns90341_pool_164.txt",
+      "published_baseline": false,
+      "sha256": "f62c3bf0b24eb98b8b6b10df31cf82fbfb6eda8c9f0e9d78fc9814f392f1dab5",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3400,
+        "8": 2184,
+        "10": 2884,
+        "12": 310
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C102.txt",
+      "origin_in_research_package": "results/lns90341_pool_165.txt",
+      "published_baseline": false,
+      "sha256": "c6c9476b1efdb1dff699e8da8d4f635fe077db998e75ca0c1bfbe377e9790cfb",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3407,
+        "8": 2179,
+        "10": 2890,
+        "12": 302
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C103.txt",
+      "origin_in_research_package": "results/lns90341_pool_168.txt",
+      "published_baseline": false,
+      "sha256": "e096ed85715979c00915e36f56a80c4c784eed9fd56421cbe951008cc2171ec8",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3422,
+        "8": 2167,
+        "10": 2889,
+        "12": 300
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C104.txt",
+      "origin_in_research_package": "results/lns90341_pool_169.txt",
+      "published_baseline": false,
+      "sha256": "be9b84294f2d29190281087b06bc941110105416c7a2a53cf309ec72554194c6",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3408,
+        "8": 2182,
+        "10": 2889,
+        "12": 299
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C105.txt",
+      "origin_in_research_package": "results/lns90341_pool_17.txt",
+      "published_baseline": false,
+      "sha256": "7caa5795976e8fc484af474aa1af118090b5c658aee3a658e187e056faa24c7f",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3406,
+        "8": 2177,
+        "10": 2886,
+        "12": 309
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C106.txt",
+      "origin_in_research_package": "results/lns90341_pool_171.txt",
+      "published_baseline": false,
+      "sha256": "0f141134103cfd85e4fee0c6d78ac5def525c54ccc3ac9b27af5c812570625a0",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3406,
+        "8": 2191,
+        "10": 2878,
+        "12": 303
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C107.txt",
+      "origin_in_research_package": "results/lns90341_pool_172.txt",
+      "published_baseline": false,
+      "sha256": "3ba51332e54df8c42e1bf4d8db67fad214018e349964739e5b0569c8e65c660d",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3411,
+        "8": 2168,
+        "10": 2890,
+        "12": 309
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C108.txt",
+      "origin_in_research_package": "results/lns90341_pool_173.txt",
+      "published_baseline": false,
+      "sha256": "98da20cacb6f15d86a627009442f21d3aadcbe9abe9c9066e9b6fe43db61dde2",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3418,
+        "8": 2167,
+        "10": 2884,
+        "12": 309
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C109.txt",
+      "origin_in_research_package": "results/lns90341_pool_174.txt",
+      "published_baseline": false,
+      "sha256": "aad0d2d95ce933e9090fb2c140d3338e1157c34305cfcba6748577d83af46a58",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3402,
+        "8": 2182,
+        "10": 2885,
+        "12": 309
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C110.txt",
+      "origin_in_research_package": "results/lns90341_pool_175.txt",
+      "published_baseline": false,
+      "sha256": "05449df34113867bc95a3c589afb652b4b102c46a21e4415d5df9a513655811d",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3405,
+        "8": 2179,
+        "10": 2885,
+        "12": 309
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C111.txt",
+      "origin_in_research_package": "results/lns90341_pool_176.txt",
+      "published_baseline": false,
+      "sha256": "0dd15eb802ad668a0eaa80ed1b7371a6bc35c1fe035eb8876da29e9ccffe83fa",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3400,
+        "8": 2186,
+        "10": 2883,
+        "12": 309
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C112.txt",
+      "origin_in_research_package": "results/lns90341_pool_177.txt",
+      "published_baseline": false,
+      "sha256": "fce4c3b11c97d5e1cab2b4dd7faf0db034dc545a6ac792b7d507c9056e51b310",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3379,
+        "8": 2216,
+        "10": 2874,
+        "12": 309
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C113.txt",
+      "origin_in_research_package": "results/lns90341_pool_179.txt",
+      "published_baseline": false,
+      "sha256": "088ffa48af32366c99c647b91fdaec9dfc6a096a8b18e9626ad18bc8b9e589e9",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3383,
+        "8": 2218,
+        "10": 2862,
+        "12": 315
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C114.txt",
+      "origin_in_research_package": "results/lns90341_pool_180.txt",
+      "published_baseline": false,
+      "sha256": "21c345f9cbf1bda64968ea9b9daeaff9f849ed91a2651a1c2aaf584c36e66d37",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3402,
+        "8": 2188,
+        "10": 2873,
+        "12": 315
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C115.txt",
+      "origin_in_research_package": "results/lns90341_pool_183.txt",
+      "published_baseline": false,
+      "sha256": "50d8b7632736448cf2a7d8c0a86ed952edfcd947b25b85f1982a65f21acaf451",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3392,
+        "8": 2206,
+        "10": 2867,
+        "12": 313
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C116.txt",
+      "origin_in_research_package": "results/lns90341_pool_186.txt",
+      "published_baseline": false,
+      "sha256": "703f9e0f9de8c20599d0e154d01e483959a80ad1b766146c688b3bc9d15be445",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3395,
+        "8": 2196,
+        "10": 2880,
+        "12": 307
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C117.txt",
+      "origin_in_research_package": "results/lns90341_pool_188.txt",
+      "published_baseline": false,
+      "sha256": "e343aefdb61dd06ea3ca55e543e09e72cdf211fd66d551c9424aa803a5b54d49",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3411,
+        "8": 2177,
+        "10": 2881,
+        "12": 309
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C118.txt",
+      "origin_in_research_package": "results/lns90341_pool_189.txt",
+      "published_baseline": false,
+      "sha256": "42777d5f81ae7a8f74e9bec4212d39d60414557e7c41cbbbc05959ec073dba6d",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3413,
+        "8": 2179,
+        "10": 2871,
+        "12": 315
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C119.txt",
+      "origin_in_research_package": "results/lns90341_pool_19.txt",
+      "published_baseline": false,
+      "sha256": "2a27fbe21b408ab24887695b958fea83d9d33ca4dfd0aba71112fcfe86005296",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3417,
+        "8": 2169,
+        "10": 2883,
+        "12": 309
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C120.txt",
+      "origin_in_research_package": "results/lns90341_pool_191.txt",
+      "published_baseline": false,
+      "sha256": "7501b870d950d01e6488de97058e5bf1c7f9e7a64d4e5dd76bcd28304962060f",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3392,
+        "8": 2213,
+        "10": 2854,
+        "12": 319
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C121.txt",
+      "origin_in_research_package": "results/lns90341_pool_194.txt",
+      "published_baseline": false,
+      "sha256": "0d40d0d5df2779322ee7dcc5f1a7e0041b39ded169bd505d85bd7dd53695c7ea",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3410,
+        "8": 2195,
+        "10": 2865,
+        "12": 308
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C122.txt",
+      "origin_in_research_package": "results/lns90341_pool_195.txt",
+      "published_baseline": false,
+      "sha256": "8c15d340409fbbd988e572e4f0ef4894b6896cd65b03cd0a7d97facd5a097511",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3409,
+        "8": 2183,
+        "10": 2870,
+        "12": 316
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C123.txt",
+      "origin_in_research_package": "results/lns90341_pool_196.txt",
+      "published_baseline": false,
+      "sha256": "4f110b336a2e211b111e6b685fe7e9f9c8e8bfe97df8256088f94beee1af719c",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3396,
+        "8": 2207,
+        "10": 2865,
+        "12": 310
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C124.txt",
+      "origin_in_research_package": "results/lns90341_pool_197.txt",
+      "published_baseline": false,
+      "sha256": "a03b4e4be6dfd6b6a925d21141f07e4a900c7bc452f92d5eb2ac2b081240fbb2",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3409,
+        "8": 2187,
+        "10": 2871,
+        "12": 311
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C125.txt",
+      "origin_in_research_package": "results/lns90341_pool_2.txt",
+      "published_baseline": false,
+      "sha256": "965e59ce31ff5866b9a3dfe9d664a8f99fc799933487bd2183a5545714346fe0",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3420,
+        "8": 2173,
+        "10": 2877,
+        "12": 308
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C126.txt",
+      "origin_in_research_package": "results/lns90341_pool_200.txt",
+      "published_baseline": false,
+      "sha256": "10b90e410684a9c8f3dae10df12fe3d63294f38be0ff3e65ea874afdcd8079f2",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3395,
+        "8": 2208,
+        "10": 2860,
+        "12": 315
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C127.txt",
+      "origin_in_research_package": "results/lns90341_pool_201.txt",
+      "published_baseline": false,
+      "sha256": "1d057c4cdff190700c5bfa2e8845678552b2a00e3cdb23c5a3395fceb4acea7a",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3399,
+        "8": 2193,
+        "10": 2875,
+        "12": 311
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C128.txt",
+      "origin_in_research_package": "results/lns90341_pool_204.txt",
+      "published_baseline": false,
+      "sha256": "cb95e81029c75df8e262f8221220f17810e6eba5681fde5d048c08e908deb78a",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3408,
+        "8": 2179,
+        "10": 2874,
+        "12": 317
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C129.txt",
+      "origin_in_research_package": "results/lns90341_pool_205.txt",
+      "published_baseline": false,
+      "sha256": "dd000617fa46fffe6c04aa52c3119a11504b80aae857f2057ae2f46e1ca1c915",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3391,
+        "8": 2209,
+        "10": 2859,
+        "12": 319
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C130.txt",
+      "origin_in_research_package": "results/lns90341_pool_206.txt",
+      "published_baseline": false,
+      "sha256": "6e8c218c5928f4af1512e20e385b161d3b177bf71c8afcf56ae6115441427450",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3390,
+        "8": 2210,
+        "10": 2859,
+        "12": 319
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C131.txt",
+      "origin_in_research_package": "results/lns90341_pool_207.txt",
+      "published_baseline": false,
+      "sha256": "60e043d3232aaf3b99563aeba03a1a9d44a1ff9082587352f017ac3062f7947d",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3395,
+        "8": 2202,
+        "10": 2872,
+        "12": 309
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C132.txt",
+      "origin_in_research_package": "results/lns90341_pool_21.txt",
+      "published_baseline": false,
+      "sha256": "7455567483da6b695ab0c87f13d53d9445f30a7b3da93fed82b37063c2aefe49",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3414,
+        "8": 2172,
+        "10": 2884,
+        "12": 308
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C133.txt",
+      "origin_in_research_package": "results/lns90341_pool_213.txt",
+      "published_baseline": false,
+      "sha256": "fd9ce7424f83a70bdff5de80dc073d818a1bb99492f5578110d92f1534b9c74b",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3404,
+        "8": 2185,
+        "10": 2890,
+        "12": 299
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C134.txt",
+      "origin_in_research_package": "results/lns90341_pool_218.txt",
+      "published_baseline": false,
+      "sha256": "27cb083815795bed0d1bbbaeda83cc2a00400cb4a7cec0c7a3860014950f2b9c",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3413,
+        "8": 2171,
+        "10": 2884,
+        "12": 310
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C135.txt",
+      "origin_in_research_package": "results/lns90341_pool_219.txt",
+      "published_baseline": false,
+      "sha256": "d928d7ed9e3260ca94e6afc0d6a8a01239d8735067798fff23bd367d214acb80",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3401,
+        "8": 2182,
+        "10": 2885,
+        "12": 310
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C136.txt",
+      "origin_in_research_package": "results/lns90341_pool_22.txt",
+      "published_baseline": false,
+      "sha256": "05efb35df084fed0a8df9a27229de860969d26441f489d02234c199e089af34e",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3416,
+        "8": 2174,
+        "10": 2874,
+        "12": 314
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C137.txt",
+      "origin_in_research_package": "results/lns90341_pool_23.txt",
+      "published_baseline": false,
+      "sha256": "c46f3682e340752ea9718759c678a2e18c1ffc620004b20d63733f4b109af55f",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3404,
+        "8": 2186,
+        "10": 2873,
+        "12": 315
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C138.txt",
+      "origin_in_research_package": "results/lns90341_pool_246.txt",
+      "published_baseline": false,
+      "sha256": "ffcf0a367677af869c7e5f4b5c3337af66f9222f67502d0e0149b0969184bae6",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3388,
+        "8": 2199,
+        "10": 2881,
+        "12": 310
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C139.txt",
+      "origin_in_research_package": "results/lns90341_pool_248.txt",
+      "published_baseline": false,
+      "sha256": "26630dfbff99f2f1314179e6aa8c62d740eec83a559e8265bd4b807a4491bed4",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3396,
+        "8": 2193,
+        "10": 2880,
+        "12": 309
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C140.txt",
+      "origin_in_research_package": "results/lns90341_pool_25.txt",
+      "published_baseline": false,
+      "sha256": "74f1bb12a9646c0f25424b758bc870ddd4001f27c6f6a96cb6cf4f663bfc9a7e",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3422,
+        "8": 2171,
+        "10": 2871,
+        "12": 314
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C141.txt",
+      "origin_in_research_package": "results/lns90341_pool_253.txt",
+      "published_baseline": false,
+      "sha256": "101b88c8a7582d6b255a46554d8cd3b8361dd3481e3fec7ef904576982117752",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3416,
+        "8": 2170,
+        "10": 2882,
+        "12": 310
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C142.txt",
+      "origin_in_research_package": "results/lns90341_pool_256.txt",
+      "published_baseline": false,
+      "sha256": "518458f284f14fcf93c43a3e17eabf5f9dffc1f792b0eadbc51f78eb46cd0d3c",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3390,
+        "8": 2204,
+        "10": 2867,
+        "12": 317
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C143.txt",
+      "origin_in_research_package": "results/lns90341_pool_258.txt",
+      "published_baseline": false,
+      "sha256": "f94f3a552eb5ec3e08236811740b977e40c9d82da9b21b0dc726dc81ec8408f4",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3389,
+        "8": 2206,
+        "10": 2866,
+        "12": 317
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C144.txt",
+      "origin_in_research_package": "results/lns90341_pool_259.txt",
+      "published_baseline": false,
+      "sha256": "38123e1fb4ca311278b80737e2e8fe21b945873e4ce5eb00e55fe8b26068c86c",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3429,
+        "8": 2156,
+        "10": 2891,
+        "12": 302
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C145.txt",
+      "origin_in_research_package": "results/lns90341_pool_262.txt",
+      "published_baseline": false,
+      "sha256": "2fbae22671ccb5f903a52a0b2f051a83c2e708eeef92a18137e559228889795b",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3408,
+        "8": 2175,
+        "10": 2885,
+        "12": 310
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C146.txt",
+      "origin_in_research_package": "results/lns90341_pool_263.txt",
+      "published_baseline": false,
+      "sha256": "f2bfdd7602168a48ea98b6384103dbaca9328607249b0932885400682da330a4",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3411,
+        "8": 2175,
+        "10": 2876,
+        "12": 316
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C147.txt",
+      "origin_in_research_package": "results/lns90341_pool_264.txt",
+      "published_baseline": false,
+      "sha256": "33d06ac9458abaf142dd746a06e4e3c1a8e67603a393823f92cd3cd38212b4ca",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3403,
+        "8": 2188,
+        "10": 2873,
+        "12": 314
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C148.txt",
+      "origin_in_research_package": "results/lns90341_pool_268.txt",
+      "published_baseline": false,
+      "sha256": "4c773292b9e6d5c5924dedba16f763eaa4eb3afeca8c3f81796c1fe78a4cd2af",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3402,
+        "8": 2184,
+        "10": 2884,
+        "12": 308
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C149.txt",
+      "origin_in_research_package": "results/lns90341_pool_269.txt",
+      "published_baseline": false,
+      "sha256": "f8ac1ba4eca7d07f1c79a4d31b1108a33ad055433a075ad32670498d3d96e6d4",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3417,
+        "8": 2167,
+        "10": 2892,
+        "12": 302
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C150.txt",
+      "origin_in_research_package": "results/lns90341_pool_27.txt",
+      "published_baseline": false,
+      "sha256": "3a609c644f231f6ac68bffa46934ce5e1723ed256db262d829393b7fa8ba5b76",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3407,
+        "8": 2181,
+        "10": 2875,
+        "12": 315
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C151.txt",
+      "origin_in_research_package": "results/lns90341_pool_272.txt",
+      "published_baseline": false,
+      "sha256": "e8e3b2669e9baa390ff153bdd2b389805445d7fce62fa35edbd7f17eaeeb64b8",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3413,
+        "8": 2172,
+        "10": 2885,
+        "12": 308
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C152.txt",
+      "origin_in_research_package": "results/lns90341_pool_273.txt",
+      "published_baseline": false,
+      "sha256": "c742e483b6187d13f4dc9c8aaf6798a45a17d1ec5a2610f0a223955c966a792e",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3408,
+        "8": 2180,
+        "10": 2882,
+        "12": 308
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C153.txt",
+      "origin_in_research_package": "results/lns90341_pool_275.txt",
+      "published_baseline": false,
+      "sha256": "c6b9a9424222a9df13b9dac33db9f4ead8007814fac74c77ef6983388b81b437",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3410,
+        "8": 2178,
+        "10": 2882,
+        "12": 308
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C154.txt",
+      "origin_in_research_package": "results/lns90341_pool_276.txt",
+      "published_baseline": false,
+      "sha256": "7358e891ed5dccfd2f9656e82741df3f142e864b0825e049151b0c534f571294",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3403,
+        "8": 2184,
+        "10": 2880,
+        "12": 311
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C155.txt",
+      "origin_in_research_package": "results/lns90341_pool_277.txt",
+      "published_baseline": false,
+      "sha256": "6fd7266180abf37f5fbc7e03e893cd9b3101eb0c88e6ec1e812960701d55f455",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3404,
+        "8": 2182,
+        "10": 2882,
+        "12": 310
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C156.txt",
+      "origin_in_research_package": "results/lns90341_pool_278.txt",
+      "published_baseline": false,
+      "sha256": "f46bf22d72567783b79458b0570378013f13f4ebacf156e2bbaef2b72653d877",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3408,
+        "8": 2180,
+        "10": 2874,
+        "12": 316
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C157.txt",
+      "origin_in_research_package": "results/lns90341_pool_279.txt",
+      "published_baseline": false,
+      "sha256": "b2a4672827fd69b67e5334289cffe81b935cd9faebf5c39afa7fd9c45c0e2b13",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3428,
+        "8": 2163,
+        "10": 2873,
+        "12": 314
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C158.txt",
+      "origin_in_research_package": "results/lns90341_pool_28.txt",
+      "published_baseline": false,
+      "sha256": "19a3e61bc8d20516457c529bc47a3894928aefee8cf5c31b46f6d9df46284835",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3415,
+        "8": 2181,
+        "10": 2865,
+        "12": 317
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C159.txt",
+      "origin_in_research_package": "results/lns90341_pool_280.txt",
+      "published_baseline": false,
+      "sha256": "026ecc6b8f12a523f2b079908e38bdabd0ccfed5783a09ed5f180bf44e016e58",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3423,
+        "8": 2170,
+        "10": 2871,
+        "12": 314
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C160.txt",
+      "origin_in_research_package": "results/lns90341_pool_282.txt",
+      "published_baseline": false,
+      "sha256": "b57e0cffa584d4b3322e2617d7425046460bcfc0db9ce6ec1113a828cacfad00",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3417,
+        "8": 2172,
+        "10": 2874,
+        "12": 315
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C161.txt",
+      "origin_in_research_package": "results/lns90341_pool_283.txt",
+      "published_baseline": false,
+      "sha256": "539d942e2ef11dff2370b981c8d6afcb3468d711eef929db4f73da8feac9c2c6",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3394,
+        "8": 2208,
+        "10": 2861,
+        "12": 315
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C162.txt",
+      "origin_in_research_package": "results/lns90341_pool_284.txt",
+      "published_baseline": false,
+      "sha256": "94344ece53269dd20fd9b24fe4f2557e9416bf5c08811a920344c6f49386fbf8",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3420,
+        "8": 2167,
+        "10": 2876,
+        "12": 315
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C163.txt",
+      "origin_in_research_package": "results/lns90341_pool_285.txt",
+      "published_baseline": false,
+      "sha256": "6e63057caac6797cbd2a00cabcd53e40552e92b43fab19ed3cabb3c12bb0ca52",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3412,
+        "8": 2184,
+        "10": 2867,
+        "12": 315
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C164.txt",
+      "origin_in_research_package": "results/lns90341_pool_286.txt",
+      "published_baseline": false,
+      "sha256": "6595459a810e980ec88e78e07569cd9676fb00ed3162a43092adbba2a4347711",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3402,
+        "8": 2187,
+        "10": 2875,
+        "12": 314
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C165.txt",
+      "origin_in_research_package": "results/lns90341_pool_287.txt",
+      "published_baseline": false,
+      "sha256": "23348724a8c2d5ac3722626236ae7d3fdf1426bf2974fcfeb18ccbe2f4cc7cb0",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3391,
+        "8": 2206,
+        "10": 2872,
+        "12": 309
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C166.txt",
+      "origin_in_research_package": "results/lns90341_pool_29.txt",
+      "published_baseline": false,
+      "sha256": "11e52abe09d1af87cbed1235e59ff6200944413def2b64af8487b3c995b22b99",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3409,
+        "8": 2190,
+        "10": 2863,
+        "12": 316
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C167.txt",
+      "origin_in_research_package": "results/lns90341_pool_290.txt",
+      "published_baseline": false,
+      "sha256": "560917c4687285bac6134c177cec7940ff37738db4c54ac52bb68d58e5e3029f",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3402,
+        "8": 2183,
+        "10": 2885,
+        "12": 308
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C168.txt",
+      "origin_in_research_package": "results/lns90341_pool_291.txt",
+      "published_baseline": false,
+      "sha256": "eeff1d61eda6a725a143eb0bb1e8d27c53d4f20f5bbcbe2137f4c399bbe0bd11",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3399,
+        "8": 2188,
+        "10": 2883,
+        "12": 308
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C169.txt",
+      "origin_in_research_package": "results/lns90341_pool_292.txt",
+      "published_baseline": false,
+      "sha256": "4a73cbe0740585578bb7d25cfcb7c4521eebc1de81bad4cab9832adaf6ff405b",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3401,
+        "8": 2190,
+        "10": 2873,
+        "12": 314
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C170.txt",
+      "origin_in_research_package": "results/lns90341_pool_293.txt",
+      "published_baseline": false,
+      "sha256": "6386b0fef9480c7d9f30767a4834be8c740311b35fe4eaf116a3d3d15b3aacc5",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3404,
+        "8": 2185,
+        "10": 2875,
+        "12": 314
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C171.txt",
+      "origin_in_research_package": "results/lns90341_pool_295.txt",
+      "published_baseline": false,
+      "sha256": "9c849537dad05a851cb464390953dcd170c09f91e5b316fa74f3027750da0cb3",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3401,
+        "8": 2188,
+        "10": 2880,
+        "12": 309
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C172.txt",
+      "origin_in_research_package": "results/lns90341_pool_296.txt",
+      "published_baseline": false,
+      "sha256": "1fc7a49bc6b17f11771c491dfb64e42ab00a4d2c90d1e8cc87670f84c8ed286a",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3396,
+        "8": 2200,
+        "10": 2869,
+        "12": 313
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C173.txt",
+      "origin_in_research_package": "results/lns90341_pool_3.txt",
+      "published_baseline": false,
+      "sha256": "ae95c4b179e5c51e9b5d3330ab341f48b9977636293f9daf511265fa00946a80",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3398,
+        "8": 2198,
+        "10": 2865,
+        "12": 317
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C174.txt",
+      "origin_in_research_package": "results/lns90341_pool_30.txt",
+      "published_baseline": false,
+      "sha256": "ddda73ba786be45de56bedc80b63e7d1f1feabe5ea9e3629fe610fcb5681d8df",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3404,
+        "8": 2184,
+        "10": 2875,
+        "12": 315
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C175.txt",
+      "origin_in_research_package": "results/lns90341_pool_300.txt",
+      "published_baseline": false,
+      "sha256": "8cfb8d7673bf3e01875dab42cfd073add6b6e7b9c4d7647a1af5a31abd649904",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3405,
+        "8": 2187,
+        "10": 2882,
+        "12": 304
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C176.txt",
+      "origin_in_research_package": "results/lns90341_pool_302.txt",
+      "published_baseline": false,
+      "sha256": "011fd06cdf183de37abfbdef36909e15b5f520623757222aa5d7c37311100930",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3418,
+        "8": 2173,
+        "10": 2875,
+        "12": 312
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C177.txt",
+      "origin_in_research_package": "results/lns90341_pool_303.txt",
+      "published_baseline": false,
+      "sha256": "7e7aee01827c7194e4821ea310f945f5d0baef944b183d03ad54552cb03ec022",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3421,
+        "8": 2161,
+        "10": 2887,
+        "12": 309
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C178.txt",
+      "origin_in_research_package": "results/lns90341_pool_304.txt",
+      "published_baseline": false,
+      "sha256": "d1747252faddee2658b6b99c3eb42864c9df544558f0cb00487ea82559f654b6",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3403,
+        "8": 2191,
+        "10": 2877,
+        "12": 307
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C179.txt",
+      "origin_in_research_package": "results/lns90341_pool_332.txt",
+      "published_baseline": false,
+      "sha256": "186f0e8876e80bd7a91ce3cc35303133151eadaf02fed4aec229c8ba60e11951",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3436,
+        "8": 2147,
+        "10": 2893,
+        "12": 302
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C180.txt",
+      "origin_in_research_package": "results/lns90341_pool_334.txt",
+      "published_baseline": false,
+      "sha256": "7a7ea116c9edd5164ce57b59df5366f9c53e30788e32cf2a45015d24af777217",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3418,
+        "8": 2165,
+        "10": 2884,
+        "12": 311
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C181.txt",
+      "origin_in_research_package": "results/lns90341_pool_335.txt",
+      "published_baseline": false,
+      "sha256": "7bc6a2433bb318257845ca2e87e816a502593413246c9cc4ec27d156e01931c7",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3414,
+        "8": 2177,
+        "10": 2883,
+        "12": 304
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C182.txt",
+      "origin_in_research_package": "results/lns90341_pool_337.txt",
+      "published_baseline": false,
+      "sha256": "787cd9bcee9aa6a1a989fab9404e74cff78c94fa2cdc810afe5a707546f1d03d",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3413,
+        "8": 2173,
+        "10": 2889,
+        "12": 303
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C183.txt",
+      "origin_in_research_package": "results/lns90341_pool_34.txt",
+      "published_baseline": false,
+      "sha256": "47ac2a7d02bd34bf6e46e1b4e271275c7edef81fdb5ef25a98a5dc5826e54d2f",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3421,
+        "8": 2160,
+        "10": 2881,
+        "12": 316
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C184.txt",
+      "origin_in_research_package": "results/lns90341_pool_341.txt",
+      "published_baseline": false,
+      "sha256": "36949bf95cb012d5904aa35783684e2cbf167053b1323380241f77f646b0fd7b",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3400,
+        "8": 2197,
+        "10": 2865,
+        "12": 316
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C185.txt",
+      "origin_in_research_package": "results/lns90341_pool_342.txt",
+      "published_baseline": false,
+      "sha256": "cc3cbfc3edbfe63251c4bbc0171b6b2f5d983647da856341973ed7ba63f75977",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3398,
+        "8": 2206,
+        "10": 2858,
+        "12": 316
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C186.txt",
+      "origin_in_research_package": "results/lns90341_pool_345.txt",
+      "published_baseline": false,
+      "sha256": "d9d3a098ebf11edad894eef57f6ed715310d1b3d3cd4f57f57478097f8029608",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3401,
+        "8": 2190,
+        "10": 2872,
+        "12": 315
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C187.txt",
+      "origin_in_research_package": "results/lns90341_pool_35.txt",
+      "published_baseline": false,
+      "sha256": "94478581513adadd3257d7a43b442791d9914e2f2ccae349d23a6a085e87588c",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3413,
+        "8": 2171,
+        "10": 2878,
+        "12": 316
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C188.txt",
+      "origin_in_research_package": "results/lns90341_pool_350.txt",
+      "published_baseline": false,
+      "sha256": "41b69f0d375a6d387430cf42848b78ac6965b485c7f1c343a79eb9cf92ed4666",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3399,
+        "8": 2186,
+        "10": 2888,
+        "12": 305
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C189.txt",
+      "origin_in_research_package": "results/lns90341_pool_351.txt",
+      "published_baseline": false,
+      "sha256": "074101e7ed94b41eb26106d78c86e437493f83e6ec71cc8b8731fcd2a120f722",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3406,
+        "8": 2180,
+        "10": 2891,
+        "12": 301
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C190.txt",
+      "origin_in_research_package": "results/lns90341_pool_352.txt",
+      "published_baseline": false,
+      "sha256": "986f45551dbb9bd97e4a03f8ed19d2a7a24d0fc34e1b970eeedee64d12516b7c",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3406,
+        "8": 2182,
+        "10": 2888,
+        "12": 302
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C191.txt",
+      "origin_in_research_package": "results/lns90341_pool_353.txt",
+      "published_baseline": false,
+      "sha256": "9f164f907a807338fd831b88333aea163013a8801602024bf4e94224282cfd44",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3408,
+        "8": 2173,
+        "10": 2889,
+        "12": 308
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C192.txt",
+      "origin_in_research_package": "results/lns90341_pool_355.txt",
+      "published_baseline": false,
+      "sha256": "d974604070f373b4f457445b28d968f7970c155df466cb646e985340dd386a1e",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3404,
+        "8": 2186,
+        "10": 2874,
+        "12": 314
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C193.txt",
+      "origin_in_research_package": "results/lns90341_pool_36.txt",
+      "published_baseline": false,
+      "sha256": "4f8e39cadc23892e21bc07ba5525362497429e48a2b7d91bc900b33de14723c5",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3432,
+        "8": 2161,
+        "10": 2877,
+        "12": 308
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C194.txt",
+      "origin_in_research_package": "results/lns90341_pool_360.txt",
+      "published_baseline": false,
+      "sha256": "eacbd6d875e3a6be5337b7317c90ce731b40575f69c911a1091517078ece45d9",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3424,
+        "8": 2162,
+        "10": 2876,
+        "12": 316
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C195.txt",
+      "origin_in_research_package": "results/lns90341_pool_364.txt",
+      "published_baseline": false,
+      "sha256": "94502075d29375fcff62bd276048c7d299df8fdc78a67f32da77715072a723be",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3420,
+        "8": 2177,
+        "10": 2872,
+        "12": 309
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C196.txt",
+      "origin_in_research_package": "results/lns90341_pool_367.txt",
+      "published_baseline": false,
+      "sha256": "8fc5f3d6c5cb055ee286f51f25ce82a099735c149e8c624ad5cff26ab5f0f42a",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3426,
+        "8": 2160,
+        "10": 2891,
+        "12": 301
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C197.txt",
+      "origin_in_research_package": "results/lns90341_pool_368.txt",
+      "published_baseline": false,
+      "sha256": "8034f4db04166dc68b16737b21c76fc8c9298adf632f94f4d9ead9096911e422",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3421,
+        "8": 2171,
+        "10": 2887,
+        "12": 299
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C198.txt",
+      "origin_in_research_package": "results/lns90341_pool_371.txt",
+      "published_baseline": false,
+      "sha256": "b2cb61021593a53ded0255ff4d975f05477179a1322f5c6c33eb0fa8aee7534e",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3414,
+        "8": 2174,
+        "10": 2882,
+        "12": 308
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C199.txt",
+      "origin_in_research_package": "results/lns90341_pool_373.txt",
+      "published_baseline": false,
+      "sha256": "02b710e4e68bb7c4a8229505001a1f1dc1652ec09c20f4397161eb7ac6eb4408",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3396,
+        "8": 2194,
+        "10": 2881,
+        "12": 307
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C200.txt",
+      "origin_in_research_package": "results/lns90341_pool_374.txt",
+      "published_baseline": false,
+      "sha256": "8d91c602d4cfd15e0eb436e82f4406055d9b8972466678aa8d27430f63258ac8",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3407,
+        "8": 2186,
+        "10": 2878,
+        "12": 307
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C201.txt",
+      "origin_in_research_package": "results/lns90341_pool_388.txt",
+      "published_baseline": false,
+      "sha256": "c81ac2e4c00efa9b5fd170bb816e05d9b7799f233fe15265ad6df3bb16334694",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3397,
+        "8": 2191,
+        "10": 2881,
+        "12": 309
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C202.txt",
+      "origin_in_research_package": "results/lns90341_pool_389.txt",
+      "published_baseline": false,
+      "sha256": "4aaed40730a5d56995e7040a978b6d6c7c86771df6a766600c0ffb6fdd38413b",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3399,
+        "8": 2189,
+        "10": 2881,
+        "12": 309
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C203.txt",
+      "origin_in_research_package": "results/lns90341_pool_395.txt",
+      "published_baseline": false,
+      "sha256": "30e381bcfb70411634f212a5323ba5ba2e34e336a4128891c2b052e0e00b90b7",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3397,
+        "8": 2200,
+        "10": 2864,
+        "12": 317
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C204.txt",
+      "origin_in_research_package": "results/lns90341_pool_396.txt",
+      "published_baseline": false,
+      "sha256": "12e9261af49979c5f724c7fd7296071e0c37405d4f76b857e98df19f0344f133",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3407,
+        "8": 2181,
+        "10": 2873,
+        "12": 317
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C205.txt",
+      "origin_in_research_package": "results/lns90341_pool_398.txt",
+      "published_baseline": false,
+      "sha256": "37a8e28c8667aa5518bf209e232dcd8dfac153f11a4c7cbf3d26167f363e2522",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3387,
+        "8": 2221,
+        "10": 2853,
+        "12": 317
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C206.txt",
+      "origin_in_research_package": "results/lns90341_pool_4.txt",
+      "published_baseline": false,
+      "sha256": "400a933e21cd4f3e16575c67f7e0e88c4bc4df10f473d5ced32737cb9aa0df6f",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3432,
+        "8": 2150,
+        "10": 2880,
+        "12": 316
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C207.txt",
+      "origin_in_research_package": "results/lns90341_pool_428.txt",
+      "published_baseline": false,
+      "sha256": "1e26c5d121dd5b8027001daeb428d8ec1c7b1792a5904f80f3cb6cecc163251f",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3403,
+        "8": 2197,
+        "10": 2865,
+        "12": 313
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C208.txt",
+      "origin_in_research_package": "results/lns90341_pool_433.txt",
+      "published_baseline": false,
+      "sha256": "f17cad82c976d8c64fa55bbb8d1c9153321e1e1ec4cdf1c25d15641acde12635",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3420,
+        "8": 2167,
+        "10": 2883,
+        "12": 308
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C209.txt",
+      "origin_in_research_package": "results/lns90341_pool_434.txt",
+      "published_baseline": false,
+      "sha256": "de6b787e4b259224c4d6d76f49f50f1d52dfc12b9c3eeb5b3899c6ee8794a415",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3411,
+        "8": 2181,
+        "10": 2880,
+        "12": 306
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C210.txt",
+      "origin_in_research_package": "results/lns90341_pool_436.txt",
+      "published_baseline": false,
+      "sha256": "291acc692c7adda2b856a5afe5a194d35fdc6afcb2b5eb883065ffed7af6a7ca",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3416,
+        "8": 2176,
+        "10": 2872,
+        "12": 314
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C211.txt",
+      "origin_in_research_package": "results/lns90341_pool_44.txt",
+      "published_baseline": false,
+      "sha256": "a8a1cabe984dfa8b64f7d0f3ddb2f32f33a6864abc9b95b2f6cff7c11d45a63f",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3402,
+        "8": 2189,
+        "10": 2883,
+        "12": 304
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C212.txt",
+      "origin_in_research_package": "results/lns90341_pool_453.txt",
+      "published_baseline": false,
+      "sha256": "a74f8ada96b3b524f934803c82d19213cad17c88afc138b7be6c98348ee6c9ef",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3412,
+        "8": 2178,
+        "10": 2871,
+        "12": 317
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C213.txt",
+      "origin_in_research_package": "results/lns90341_pool_454.txt",
+      "published_baseline": false,
+      "sha256": "40552c9bce3f33183a7efd9d912ab8f439cc682eda3ab698a3a8ee88fbeaa0aa",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3401,
+        "8": 2193,
+        "10": 2866,
+        "12": 318
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C214.txt",
+      "origin_in_research_package": "results/lns90341_pool_455.txt",
+      "published_baseline": false,
+      "sha256": "1a0725c32785e2c6f125e1509ce6573475744dee07bae5b146a09837daf55580",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3413,
+        "8": 2181,
+        "10": 2866,
+        "12": 318
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C215.txt",
+      "origin_in_research_package": "results/lns90341_pool_456.txt",
+      "published_baseline": false,
+      "sha256": "88fc75281596591fb73c91c472bd45796a1222a0600e5f4f4eca93414f4743d3",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3398,
+        "8": 2195,
+        "10": 2872,
+        "12": 313
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C216.txt",
+      "origin_in_research_package": "results/lns90341_pool_46.txt",
+      "published_baseline": false,
+      "sha256": "4ad136433c801d6506ad890a630b48d3820348205bb44c55a620ac08113aab64",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3409,
+        "8": 2171,
+        "10": 2890,
+        "12": 308
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C217.txt",
+      "origin_in_research_package": "results/lns90341_pool_461.txt",
+      "published_baseline": false,
+      "sha256": "8b923d2698ffb04364c0700952d952e98df1d75f58d68fbd29facb70e6572d01",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3403,
+        "8": 2192,
+        "10": 2866,
+        "12": 317
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C218.txt",
+      "origin_in_research_package": "results/lns90341_pool_462.txt",
+      "published_baseline": false,
+      "sha256": "b7584f099371dadd3ca26c4342f60f13653c985d7a78857c5bd5e2f0d37b777c",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3400,
+        "8": 2196,
+        "10": 2869,
+        "12": 313
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C219.txt",
+      "origin_in_research_package": "results/lns90341_pool_466.txt",
+      "published_baseline": false,
+      "sha256": "1cf8fc2e11eb5940db2f210afa589b78b1f277d04d6f3aaa798529e04dc7a493",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3413,
+        "8": 2172,
+        "10": 2892,
+        "12": 301
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C220.txt",
+      "origin_in_research_package": "results/lns90341_pool_475.txt",
+      "published_baseline": false,
+      "sha256": "a389984ab8af6a21a3d3195d7d5c279e298c00d306a46d2263b4792e51d4d230",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3412,
+        "8": 2172,
+        "10": 2879,
+        "12": 315
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C221.txt",
+      "origin_in_research_package": "results/lns90341_pool_476.txt",
+      "published_baseline": false,
+      "sha256": "4dae21a4f04a45f7eb7ff8ae3aa5c6107ed4c4714c515d4ec119c95a04385d24",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3419,
+        "8": 2171,
+        "10": 2873,
+        "12": 315
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C222.txt",
+      "origin_in_research_package": "results/lns90341_pool_477.txt",
+      "published_baseline": false,
+      "sha256": "ed9e2a8665cb036c39ce59de36b8bc502fdc01a64713588a5f68dc1be137cc8b",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3415,
+        "8": 2166,
+        "10": 2882,
+        "12": 315
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C223.txt",
+      "origin_in_research_package": "results/lns90341_pool_479.txt",
+      "published_baseline": false,
+      "sha256": "50547ad8c15b68a238e77b196539709e28522f46d3911787d4f73d7e64848199",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3405,
+        "8": 2191,
+        "10": 2870,
+        "12": 312
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C224.txt",
+      "origin_in_research_package": "results/lns90341_pool_486.txt",
+      "published_baseline": false,
+      "sha256": "2c25fab34d3c9f9bc05a1e31c2b5cb86e8207441d8de3a99ec5005232facfdb4",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3405,
+        "8": 2182,
+        "10": 2877,
+        "12": 314
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C225.txt",
+      "origin_in_research_package": "results/lns90341_pool_487.txt",
+      "published_baseline": false,
+      "sha256": "123bd08ea7fbf42f54b49a6edbef234a99141249eaa2d15d45b755462a28e022",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3403,
+        "8": 2180,
+        "10": 2887,
+        "12": 308
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C226.txt",
+      "origin_in_research_package": "results/lns90341_pool_488.txt",
+      "published_baseline": false,
+      "sha256": "47300c1e21c4477b59080de6950e0879da93fc927255f1254b840346b5b94b31",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3399,
+        "8": 2186,
+        "10": 2885,
+        "12": 308
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C227.txt",
+      "origin_in_research_package": "results/lns90341_pool_489.txt",
+      "published_baseline": false,
+      "sha256": "55b0751a72a4b77cb9ca2999c703ee04eb126ed2583b3f1af82e0c3e127a094a",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3400,
+        "8": 2185,
+        "10": 2885,
+        "12": 308
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C228.txt",
+      "origin_in_research_package": "results/lns90341_pool_490.txt",
+      "published_baseline": false,
+      "sha256": "f14cade06da8581325c787df998dbe4abe25ce548c1d7efa28a0564a487f869d",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3404,
+        "8": 2178,
+        "10": 2888,
+        "12": 308
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C229.txt",
+      "origin_in_research_package": "results/lns90341_pool_491.txt",
+      "published_baseline": false,
+      "sha256": "a6a04b9673db65324f8b7872f4683827ea834a3b38c61c053ccaf062d317ed67",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3401,
+        "8": 2184,
+        "10": 2884,
+        "12": 309
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C230.txt",
+      "origin_in_research_package": "results/lns90341_pool_498.txt",
+      "published_baseline": false,
+      "sha256": "d97c96e1d6ed442c8ec5c4f7d73d33819010b145f6d99ce01d13ff2eb2ff09af",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3421,
+        "8": 2171,
+        "10": 2870,
+        "12": 316
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C231.txt",
+      "origin_in_research_package": "results/lns90341_pool_507.txt",
+      "published_baseline": false,
+      "sha256": "e0d9e03b19173f095b1230944c21ddaf4e049790157d99eb91e0b667f2bcb5d8",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3425,
+        "8": 2159,
+        "10": 2879,
+        "12": 315
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C232.txt",
+      "origin_in_research_package": "results/lns90341_pool_511.txt",
+      "published_baseline": false,
+      "sha256": "9714d56683bb3d026ba536b02f636a0974a7fc180519e05b0e1c852933784f0a",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3403,
+        "8": 2184,
+        "10": 2875,
+        "12": 316
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C233.txt",
+      "origin_in_research_package": "results/lns90341_pool_512.txt",
+      "published_baseline": false,
+      "sha256": "57d5c7621eab4ad9c446285e4216de000ac07cd2da20a166f78d4536d86d30b4",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3415,
+        "8": 2173,
+        "10": 2874,
+        "12": 316
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C234.txt",
+      "origin_in_research_package": "results/lns90341_pool_513.txt",
+      "published_baseline": false,
+      "sha256": "e6a341d657760992cba1cd8a830062870b840c2ab25e322a08e5d6dd65480102",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3402,
+        "8": 2186,
+        "10": 2874,
+        "12": 316
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C235.txt",
+      "origin_in_research_package": "results/lns90341_pool_515.txt",
+      "published_baseline": false,
+      "sha256": "76e73ca25a3f64acc55f5e7020a756998b3a753ed5d9878a58bdfafd2044095d",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3419,
+        "8": 2169,
+        "10": 2874,
+        "12": 316
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C236.txt",
+      "origin_in_research_package": "results/lns90341_pool_52.txt",
+      "published_baseline": false,
+      "sha256": "568afe73d8615ee43b0f9320546cd09d42bf3f37438fff19136dd06828ecaa06",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3411,
+        "8": 2187,
+        "10": 2864,
+        "12": 316
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C237.txt",
+      "origin_in_research_package": "results/lns90341_pool_521.txt",
+      "published_baseline": false,
+      "sha256": "df6db72ccfdaaaf2cd5b10f792c33ab3e0b1cbdd7ae7668ec0e47632e1788fd3",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3416,
+        "8": 2169,
+        "10": 2884,
+        "12": 309
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C238.txt",
+      "origin_in_research_package": "results/lns90341_pool_524.txt",
+      "published_baseline": false,
+      "sha256": "516c6198899031f0f669b5778a93eda4799b3c016dcd22e6d4fd71a76c39c7e6",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3402,
+        "8": 2185,
+        "10": 2882,
+        "12": 309
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C239.txt",
+      "origin_in_research_package": "results/lns90341_pool_525.txt",
+      "published_baseline": false,
+      "sha256": "877eefec0baea2687860ed094c730f538b9d308cbfa64410fd2c626dda6b70f2",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3399,
+        "8": 2192,
+        "10": 2877,
+        "12": 310
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C240.txt",
+      "origin_in_research_package": "results/lns90341_pool_527.txt",
+      "published_baseline": false,
+      "sha256": "2acd3793d1866a6fcf59a4dc5986f89c3727fa157671d141097337bbe35a56c0",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3417,
+        "8": 2167,
+        "10": 2885,
+        "12": 309
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C241.txt",
+      "origin_in_research_package": "results/lns90341_pool_532.txt",
+      "published_baseline": false,
+      "sha256": "6021fde547d37faa1c830ae50558ac2025d165063c7994ac64061146245d8b48",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3419,
+        "8": 2163,
+        "10": 2889,
+        "12": 307
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C242.txt",
+      "origin_in_research_package": "results/lns90341_pool_533.txt",
+      "published_baseline": false,
+      "sha256": "226859d8392780778ae8dbd0ecffac1914d44b2a9cc2c05ede7d111db486e579",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3429,
+        "8": 2154,
+        "10": 2895,
+        "12": 300
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C243.txt",
+      "origin_in_research_package": "results/lns90341_pool_534.txt",
+      "published_baseline": false,
+      "sha256": "63b68db7de14d90a8e5c545f4c9d48b9b92dfa74fec7cf8a8f658975bbaa9da6",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3419,
+        "8": 2178,
+        "10": 2878,
+        "12": 303
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C244.txt",
+      "origin_in_research_package": "results/lns90341_pool_536.txt",
+      "published_baseline": false,
+      "sha256": "bf14b38d4bfde39f52da017d25a9caa0d089fc5b31f3ce3c10bd0325b3b8b664",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3415,
+        "8": 2171,
+        "10": 2881,
+        "12": 311
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C245.txt",
+      "origin_in_research_package": "results/lns90341_pool_537.txt",
+      "published_baseline": false,
+      "sha256": "e016a2764b57ad0e17e2dd74fa4a72d0c614a90d44e7c4cedd3f6093c20d041c",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3394,
+        "8": 2206,
+        "10": 2873,
+        "12": 305
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C246.txt",
+      "origin_in_research_package": "results/lns90341_pool_544.txt",
+      "published_baseline": false,
+      "sha256": "ad731d9662003abe260d77102d04583cc15e002256c31fb9acabc8e307884090",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3397,
+        "8": 2198,
+        "10": 2872,
+        "12": 311
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C247.txt",
+      "origin_in_research_package": "results/lns90341_pool_549.txt",
+      "published_baseline": false,
+      "sha256": "7221aa90bc50d004c155115689a1798fe574a200bcf04c68cd713cc4898864a8",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3424,
+        "8": 2166,
+        "10": 2871,
+        "12": 317
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C248.txt",
+      "origin_in_research_package": "results/lns90341_pool_55.txt",
+      "published_baseline": false,
+      "sha256": "16f66e19d6450f5f9a02797f50c5ebcc3d7fa13b2d1ab84847342026c429e96a",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3404,
+        "8": 2201,
+        "10": 2854,
+        "12": 319
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C249.txt",
+      "origin_in_research_package": "results/lns90341_pool_550.txt",
+      "published_baseline": false,
+      "sha256": "9d0c0d761acc4fc5903f04ac921af79ccda4de8c014e1d03444f9e95b36798c9",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3434,
+        "8": 2146,
+        "10": 2882,
+        "12": 316
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C250.txt",
+      "origin_in_research_package": "results/lns90341_pool_555.txt",
+      "published_baseline": false,
+      "sha256": "b467eb5506c38364fb5276932fb23675dda2da763f888058dbede0ece32b8908",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3404,
+        "8": 2181,
+        "10": 2884,
+        "12": 309
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C251.txt",
+      "origin_in_research_package": "results/lns90341_pool_556.txt",
+      "published_baseline": false,
+      "sha256": "000efa9ae21d683ccb31ffd8dd63f34b4ac8d3f3d793c8d429cd5c3cf0426791",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3387,
+        "8": 2204,
+        "10": 2876,
+        "12": 311
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C252.txt",
+      "origin_in_research_package": "results/lns90341_pool_559.txt",
+      "published_baseline": false,
+      "sha256": "430593bd9086cba45d48dfb4ff1687db875955b86a913522069200ab8741cac7",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3404,
+        "8": 2181,
+        "10": 2882,
+        "12": 311
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C253.txt",
+      "origin_in_research_package": "results/lns90341_pool_561.txt",
+      "published_baseline": false,
+      "sha256": "ab4e6d7888943c9ec0b1af79beeeb39f4bc6fee8eabc25263a62c3c6e77d6a4e",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3394,
+        "8": 2201,
+        "10": 2871,
+        "12": 312
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C254.txt",
+      "origin_in_research_package": "results/lns90341_pool_571.txt",
+      "published_baseline": false,
+      "sha256": "b9195e7fa0efb0e90e1541569baab3c28daec97085ce322eb09be895df3bf3c2",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3406,
+        "8": 2194,
+        "10": 2873,
+        "12": 305
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C255.txt",
+      "origin_in_research_package": "results/lns90341_pool_575.txt",
+      "published_baseline": false,
+      "sha256": "992da83666cc3e0a1af704c15b66ca9582b0fc26ed5732854a08dda953d1e2e3",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3431,
+        "8": 2151,
+        "10": 2895,
+        "12": 301
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C256.txt",
+      "origin_in_research_package": "results/lns90341_pool_584.txt",
+      "published_baseline": false,
+      "sha256": "31e317273e2dcdc2ae2651446361e321602f0cc75dd022c17f1601059b447bcb",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3420,
+        "8": 2164,
+        "10": 2884,
+        "12": 310
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C257.txt",
+      "origin_in_research_package": "results/lns90341_pool_585.txt",
+      "published_baseline": false,
+      "sha256": "687df27d241de9729331b380b501661b63130e561f3aff0c3822c6e0e034c028",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3399,
+        "8": 2187,
+        "10": 2882,
+        "12": 310
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C258.txt",
+      "origin_in_research_package": "results/lns90341_pool_586.txt",
+      "published_baseline": false,
+      "sha256": "2cb155bd9d7bdb99ab9c264d838922989e3a3dc5d97fa3dc1c4bf78a10994dff",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3413,
+        "8": 2168,
+        "10": 2889,
+        "12": 308
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C259.txt",
+      "origin_in_research_package": "results/lns90341_pool_587.txt",
+      "published_baseline": false,
+      "sha256": "708965ad5b00138e1266318a09f584d894bc5211e78eee702d58cff8a40d58e6",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3416,
+        "8": 2167,
+        "10": 2895,
+        "12": 300
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C260.txt",
+      "origin_in_research_package": "results/lns90341_pool_611.txt",
+      "published_baseline": false,
+      "sha256": "2a24691b7dcb36e4ba5df10bae809f0fce42ebc93ea6041856b30566ffafab2e",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3408,
+        "8": 2188,
+        "10": 2877,
+        "12": 305
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C261.txt",
+      "origin_in_research_package": "results/lns90341_pool_62.txt",
+      "published_baseline": false,
+      "sha256": "ed3b32c3b7c4022e52b0c1a8cbfe4d11bb833665f7cb53ba4287ea3f2ab249b9",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3398,
+        "8": 2194,
+        "10": 2868,
+        "12": 318
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C262.txt",
+      "origin_in_research_package": "results/lns90341_pool_635.txt",
+      "published_baseline": false,
+      "sha256": "0dec65bcb65b3b3a8993d08d924aa282223fc5986e9ba89c3d038d1878be6076",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3416,
+        "8": 2164,
+        "10": 2888,
+        "12": 310
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C263.txt",
+      "origin_in_research_package": "results/lns90341_pool_636.txt",
+      "published_baseline": false,
+      "sha256": "85398a5666933b107d53c71718f14148a1c02231aa1e4a6c38eb05328ffe662e",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3406,
+        "8": 2177,
+        "10": 2884,
+        "12": 311
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C264.txt",
+      "origin_in_research_package": "results/lns90341_pool_661.txt",
+      "published_baseline": false,
+      "sha256": "30ef08cca6fdc349e371e569434970176c2ef371129f67321cc6e60219a60c94",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3420,
+        "8": 2162,
+        "10": 2880,
+        "12": 316
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C265.txt",
+      "origin_in_research_package": "results/lns90341_pool_668.txt",
+      "published_baseline": false,
+      "sha256": "87a1e76eb5e0302b372636dad04ef34b4b249cc6c86061e2e99e51eef1511da8",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3401,
+        "8": 2194,
+        "10": 2868,
+        "12": 315
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C266.txt",
+      "origin_in_research_package": "results/lns90341_pool_669.txt",
+      "published_baseline": false,
+      "sha256": "477a3220b4618ec235e13dffc98ba8665e82155cf9ff93558b3e30afcae21a6e",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3411,
+        "8": 2189,
+        "10": 2862,
+        "12": 316
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C267.txt",
+      "origin_in_research_package": "results/lns90341_pool_671.txt",
+      "published_baseline": false,
+      "sha256": "cf28f37dd6e3eddeffdaa03e4aa5a36722b6d93478e8ef9c25bee759de5ed749",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3405,
+        "8": 2198,
+        "10": 2860,
+        "12": 315
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C268.txt",
+      "origin_in_research_package": "results/lns90341_pool_674.txt",
+      "published_baseline": false,
+      "sha256": "625ad75594f39a8128a774d90d4988ca3587f50bbb00f6d4c7c11224cd771eab",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3398,
+        "8": 2196,
+        "10": 2868,
+        "12": 316
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C269.txt",
+      "origin_in_research_package": "results/lns90341_pool_675.txt",
+      "published_baseline": false,
+      "sha256": "2467c0c61dce7d4625f54e49fbd02db0954457b89b7233b7d5a9cdd0042def3e",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3388,
+        "8": 2205,
+        "10": 2869,
+        "12": 316
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C270.txt",
+      "origin_in_research_package": "results/lns90341_pool_676.txt",
+      "published_baseline": false,
+      "sha256": "2e54f5cde4c24d63b3783e35234a14104c76bac19ed9ae0577dafe61fe654c1e",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3390,
+        "8": 2201,
+        "10": 2871,
+        "12": 316
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C271.txt",
+      "origin_in_research_package": "results/lns90341_pool_68.txt",
+      "published_baseline": false,
+      "sha256": "87ec250856aba5d7543a174c42af56dfa9dc6a8686355a41b8f431a97372d338",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3410,
+        "8": 2182,
+        "10": 2868,
+        "12": 318
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C272.txt",
+      "origin_in_research_package": "results/lns90341_pool_681.txt",
+      "published_baseline": false,
+      "sha256": "f1c530c015697a121d1637360ff5ea25aa2e58d3fa641e920598d88673cba801",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3408,
+        "8": 2180,
+        "10": 2878,
+        "12": 312
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C273.txt",
+      "origin_in_research_package": "results/lns90341_pool_683.txt",
+      "published_baseline": false,
+      "sha256": "e13af648be20fcc2262e931a0cfa9b3756d7faf12639b0a66198977c3ccd0b40",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3410,
+        "8": 2170,
+        "10": 2889,
+        "12": 309
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C274.txt",
+      "origin_in_research_package": "results/lns90341_pool_688.txt",
+      "published_baseline": false,
+      "sha256": "125ad0965d5c8ff7898ff88a677a654138a0f0df8c229cda2a8ce83c9ab68110",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3401,
+        "8": 2195,
+        "10": 2866,
+        "12": 316
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C275.txt",
+      "origin_in_research_package": "results/lns90341_pool_69.txt",
+      "published_baseline": false,
+      "sha256": "97d45d3ae214b40b0b1c2bb37fd9e622f981200b8168a6d2374cb80da3a30284",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3409,
+        "8": 2181,
+        "10": 2880,
+        "12": 308
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C276.txt",
+      "origin_in_research_package": "results/lns90341_pool_695.txt",
+      "published_baseline": false,
+      "sha256": "23493e967f285a268f56c34279b437cf815793fd0e09f5fc0f54e52fd5aaf7db",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3402,
+        "8": 2198,
+        "10": 2859,
+        "12": 319
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C277.txt",
+      "origin_in_research_package": "results/lns90341_pool_696.txt",
+      "published_baseline": false,
+      "sha256": "bed5c4ef24f0131b065fe39801cef7ff6b2b9b854ff296a9880fae17181f4840",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3427,
+        "8": 2163,
+        "10": 2873,
+        "12": 315
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C278.txt",
+      "origin_in_research_package": "results/lns90341_pool_697.txt",
+      "published_baseline": false,
+      "sha256": "0593e3caeb6719e4c1128cbe2911e64eca6bc9f46def07e0fcba3c8a86d665d6",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3399,
+        "8": 2193,
+        "10": 2871,
+        "12": 315
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C279.txt",
+      "origin_in_research_package": "results/lns90341_pool_698.txt",
+      "published_baseline": false,
+      "sha256": "1f69b8b6a363ce33e33161cf72d5d06fba97b4f0b382b7a8b8f9b3e17d5efd82",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3410,
+        "8": 2182,
+        "10": 2872,
+        "12": 314
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C280.txt",
+      "origin_in_research_package": "results/lns90341_pool_7.txt",
+      "published_baseline": false,
+      "sha256": "980fcd23675479ed097dcaeeca37f717b64de97ed12622ae8a78af814893072f",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3422,
+        "8": 2168,
+        "10": 2880,
+        "12": 308
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C281.txt",
+      "origin_in_research_package": "results/lns90341_pool_700.txt",
+      "published_baseline": false,
+      "sha256": "25d17f3d58a0d7d242fb1761ee64fc6394be8198b137a75173171df8dae1c576",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3414,
+        "8": 2176,
+        "10": 2874,
+        "12": 314
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C282.txt",
+      "origin_in_research_package": "results/lns90341_pool_701.txt",
+      "published_baseline": false,
+      "sha256": "adb3a3068e166f8cf2e0bb711f16b4ff98cf9b0b3a235e8d89e13e0e1e1758c5",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3397,
+        "8": 2202,
+        "10": 2863,
+        "12": 316
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C283.txt",
+      "origin_in_research_package": "results/lns90341_pool_702.txt",
+      "published_baseline": false,
+      "sha256": "08bf5360a89f241234368e45277f26332c0212c5a64c25096638951eb3a435d6",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3386,
+        "8": 2214,
+        "10": 2861,
+        "12": 317
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C284.txt",
+      "origin_in_research_package": "results/lns90341_pool_705.txt",
+      "published_baseline": false,
+      "sha256": "338f4845a622c0eadbac6fc14fa80a81577576513ed4833419081e000d1c2157",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3390,
+        "8": 2194,
+        "10": 2885,
+        "12": 309
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C285.txt",
+      "origin_in_research_package": "results/lns90341_pool_717.txt",
+      "published_baseline": false,
+      "sha256": "2004d2d0515cf10584466ac4dc9ffec800604d6ebaf049fa71b05e1603becd68",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3387,
+        "8": 2201,
+        "10": 2880,
+        "12": 310
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C286.txt",
+      "origin_in_research_package": "results/lns90341_pool_720.txt",
+      "published_baseline": false,
+      "sha256": "b9baac5abc5d06854a4082bf112989783bf71ae6cb65098f1a9ba054b6a20081",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3394,
+        "8": 2216,
+        "10": 2848,
+        "12": 320
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C287.txt",
+      "origin_in_research_package": "results/lns90341_pool_727.txt",
+      "published_baseline": false,
+      "sha256": "40f53ea175833ebaf5116fe228dba1d7d26c12bcaaa78d537c9fba85974f5831",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3424,
+        "8": 2164,
+        "10": 2881,
+        "12": 309
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C288.txt",
+      "origin_in_research_package": "results/lns90341_pool_93.txt",
+      "published_baseline": false,
+      "sha256": "c0766e2d41cac721c725eb745f2be3a5522050e94723c31f7de0112308f127b6",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3404,
+        "8": 2183,
+        "10": 2889,
+        "12": 302
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C289.txt",
+      "origin_in_research_package": "results/lns90341_pool_94.txt",
+      "published_baseline": false,
+      "sha256": "ac2af1c5131ecc5e2a3c5a770a1ff46c405b20b3919e78497e41fb9cfdea1b91",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3402,
+        "8": 2185,
+        "10": 2881,
+        "12": 310
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C290.txt",
+      "origin_in_research_package": "results/lnstest2_pool_10.txt",
+      "published_baseline": false,
+      "sha256": "5f2d6a84e2a06b29288283c960ba146a6089afc866fa11578376059e48601d02",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3425,
+        "8": 2161,
+        "10": 2895,
+        "12": 297
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C291.txt",
+      "origin_in_research_package": "results/lnstest2_pool_11.txt",
+      "published_baseline": false,
+      "sha256": "a76628d9817681a676bdb839a873fe670d3a5d8bbb0974853eef08d7758711cb",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3395,
+        "8": 2193,
+        "10": 2882,
+        "12": 308
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    },
+    {
+      "file": "C292.txt",
+      "origin_in_research_package": "results/lnstest2_pool_13.txt",
+      "published_baseline": false,
+      "sha256": "652e93986dfb7127e984b9af28bd3ef2117c295b7d252326792b520973f15b10",
+      "word_count": 133,
+      "minimum_distance": 6,
+      "distance_histogram": {
+        "6": 3415,
+        "8": 2175,
+        "10": 2888,
+        "12": 300
+      },
+      "xor_character_and_four_subset_checks_pass": true
+    }
+  ]
+}

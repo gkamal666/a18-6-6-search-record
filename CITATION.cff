@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+title: "A(18,6,6) search record: 292 inequivalent valid 133-word codes"
+message: "Please cite this data release and exact version when reusing its constructions or verification code."
+authors:
+  - family-names: Gokanakonda
+    given-names: Kamal Babu
+    orcid: "https://orcid.org/0009-0007-5958-3000"
+version: "1.0.0"
+date-released: "2026-09-14"
+type: dataset
+abstract: "A finite, reproducible family of 292 pairwise inequivalent binary codes with parameters (18,133,6,6), together with exact verification and search records; the 134-word target is not met."

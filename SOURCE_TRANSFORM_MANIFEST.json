@@ -1,0 +1,18 @@
+{
+  "package": "a18-6-6-search-record",
+  "version": "1.0.0",
+  "date": "2026-09-14",
+  "title": "A(18,6,6) search record: 292 inequivalent valid 133-word codes",
+  "author": "Kamal Babu Gokanakonda",
+  "affiliation": "Independent Researcher",
+  "source_archive": "/Users/kamal/Desktop/Math/Math 2/A18_133_Word_Family_292_Verified_Codes.zip",
+  "source_archive_sha256": "bf7142e16a9371235b39637cd0f52c27db8a99bd9befd4a08a628042e88347f4",
+  "source_changes": [
+    "Copied the finite-family certificate, 292 witnesses, verifier and status into an isolated public tree.",
+    "Added a Python 3.9-compatible popcount fallback in verify_code.py; mathematical behavior is unchanged and the source transformation is recorded here.",
+    "Added public metadata, reproducibility, contribution, AI-use, limitations, and explicit license mapping documents."
+  ],
+  "excluded": [
+    "none from selected source package"
+  ]
+}
